@@ -1,0 +1,17 @@
+
+# Ignore dot secret files.
+.venv
+__pycache__/
+.pytest_cache/
+.secrets.*
+.mypy_cache/
+.pytype/
+.vscode/
+
+# Ignore build and dev config files.
+dist/
+build/
+
+# Ignore system generated folders
+data/
+storage/
