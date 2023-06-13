@@ -91,7 +91,7 @@ def execute_query(index_param):
     query_engine = index_param.as_query_engine()
     query_response = query_engine.query("Summerize Australia's coal exports in 2023.")
     print("Done executing query on index")
-    print(response)
+    print(query_response)
 
     return query_response
 
